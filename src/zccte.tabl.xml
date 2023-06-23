@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZCCTE</TABNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>跨公司交易增强信息结构</DDTEXT>
+    <MASTERLANG>1</MASTERLANG>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>KEY_NAME</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000060</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000030</LENG>
+     <MASK>  CHAR</MASK>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>KEY_VALUE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000264</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000132</LENG>
+     <MASK>  CHAR</MASK>
+    </DD03P>
+   </DD03P_TABLE>
+   <SEGMENT_DEFINITION>
+    <item>
+     <SEGMENTHEADER>
+      <SEGTYP>ZCCTE</SEGTYP>
+      <QUALIFIER>X</QUALIFIER>
+      <DESCRP>跨公司交易增强信息结构</DESCRP>
+     </SEGMENTHEADER>
+     <SEGMENTDEFINITION>
+      <SEGTYP>ZCCTE</SEGTYP>
+      <SEGDEF>ZCCTE000</SEGDEF>
+      <RELEASED>754</RELEASED>
+      <CLOSED>X</CLOSED>
+      <FIELDNUM>0002</FIELDNUM>
+      <EXPLENG>0162</EXPLENG>
+     </SEGMENTDEFINITION>
+     <SEGMENTSTRUCTURES>
+      <EDISEGSTRU>
+       <SEGTYP>ZCCTE</SEGTYP>
+       <POS>0001</POS>
+       <FIELDNAME>KEY_NAME</FIELDNAME>
+       <ROLLNAME>FIELDNAME</ROLLNAME>
+       <EXPLENG>0030</EXPLENG>
+      </EDISEGSTRU>
+      <EDISEGSTRU>
+       <SEGTYP>ZCCTE</SEGTYP>
+       <POS>0002</POS>
+       <FIELDNAME>KEY_VALUE</FIELDNAME>
+       <ROLLNAME>FIELDVALUE</ROLLNAME>
+       <EXPLENG>0132</EXPLENG>
+      </EDISEGSTRU>
+     </SEGMENTSTRUCTURES>
+    </item>
+   </SEGMENT_DEFINITION>
+  </asx:values>
+ </asx:abap>
+</abapGit>

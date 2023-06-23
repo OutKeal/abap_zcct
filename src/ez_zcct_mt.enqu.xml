@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENQU" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>EZ_ZCCT_MT</VIEWNAME>
+    <DDLANGUAGE>1</DDLANGUAGE>
+    <AGGTYPE>E</AGGTYPE>
+    <ROOTTAB>ZCCT_MT</ROOTTAB>
+    <DDTEXT>业务类型过账锁</DDTEXT>
+   </DD25V>
+   <DD26E_TABLE>
+    <DD26E>
+     <VIEWNAME>EZ_ZCCT_MT</VIEWNAME>
+     <TABNAME>ZCCT_MT</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZCCT_MT</FORTABNAME>
+     <ENQMODE>E</ENQMODE>
+    </DD26E>
+   </DD26E_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWNAME>EZ_ZCCT_MT</VIEWNAME>
+     <OBJPOS>0001</OBJPOS>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZCCT_MT</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+    </DD27P>
+    <DD27P>
+     <VIEWNAME>EZ_ZCCT_MT</VIEWNAME>
+     <OBJPOS>0002</OBJPOS>
+     <VIEWFIELD>ZCCT_TYPE</VIEWFIELD>
+     <TABNAME>ZCCT_MT</TABNAME>
+     <FIELDNAME>ZCCT_TYPE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <SHLPNAME>ZCCT_TYPE</SHLPNAME>
+     <SHLPFIELD>ZCCT_TYPE</SHLPFIELD>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

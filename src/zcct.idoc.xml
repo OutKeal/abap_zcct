@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_IDOC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <IDOC>
+    <ATTRIBUTES>
+     <DESCRP>跨公司交易信息结构</DESCRP>
+     <CLOSED>X</CLOSED>
+     <RELEASED>754</RELEASED>
+     <FIRSTTYP>ZCCT</FIRSTTYP>
+     <LASTTYP>ZCCT</LASTTYP>
+    </ATTRIBUTES>
+    <T_SYNTAX>
+     <EDI_IAPI02>
+      <NR>0001</NR>
+      <SEGTYP>ZCCTH</SEGTYP>
+      <PARFLG>X</PARFLG>
+      <OCCMIN>0000000001</OCCMIN>
+      <OCCMAX>0000000001</OCCMAX>
+      <HLEVEL>01</HLEVEL>
+     </EDI_IAPI02>
+     <EDI_IAPI02>
+      <NR>0002</NR>
+      <SEGTYP>ZCCTI</SEGTYP>
+      <PARSEG>ZCCTH</PARSEG>
+      <PARPNO>0001</PARPNO>
+      <PARFLG>X</PARFLG>
+      <OCCMIN>0000000001</OCCMIN>
+      <OCCMAX>9999999999</OCCMAX>
+      <HLEVEL>02</HLEVEL>
+     </EDI_IAPI02>
+     <EDI_IAPI02>
+      <NR>0003</NR>
+      <SEGTYP>ZCCTE</SEGTYP>
+      <PARSEG>ZCCTI</PARSEG>
+      <PARPNO>0002</PARPNO>
+      <OCCMIN>0000000001</OCCMIN>
+      <OCCMAX>9999999999</OCCMAX>
+      <HLEVEL>03</HLEVEL>
+     </EDI_IAPI02>
+    </T_SYNTAX>
+   </IDOC>
+  </asx:values>
+ </asx:abap>
+</abapGit>
